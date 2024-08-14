@@ -550,3 +550,95 @@ footer {
 .product-page button:hover {
   background-color: #45a049;
 }
+
+
+
+
+
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: right;
+  padding: 20px;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4f8; /* خلفية بلون أزرق فاتح للغاية */
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #2d3e50; /* لون أزرق داكن للنص */
+}
+
+form {
+  width: 100%;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.8); /* خلفية بيضاء نصف شفافة */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #37474f; /* لون رمادي داكن للأسئلة */
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+  color: #455a64; /* لون رمادي مائل للأزرق للنص */
+}
+
+button {
+  background-color: #00acc1; /* لون أزرق تركوازي للأزرار */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #00838f; /* لون أزرق داكن للأزرار عند التمرير */
+}
+
+.result {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #2d3e50; /* لون أزرق داكن للنتيجة */
+  text-align: center;
+}
+
+.contact {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.whatsapp-link button {
+  background-color: #4caf50; /* لون أخضر للأزرار */
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.whatsapp-link button:hover {
+  background-color: #388e3c; /* لون أخضر داكن للأزرار عند التمرير */
+}
+
+.whatsapp-link {
+  text-decoration: none;
+}
+
+.whatsapp-link:hover {
+  text-decoration: none;
+}
